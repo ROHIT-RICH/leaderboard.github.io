@@ -1,0 +1,226 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!----====== Bootstrap css ======  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--<title>Dashboard Sidebar Menu</title>-->
+</head>
+
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="img/logo.png" alt="">
+                </span>
+                <div class="text logo-text">
+                    <span class="name"><img src="img/name logo.png" alt=""></span>
+                    <span class="profession">Revolutionize Trading</span>
+                </div>
+            </div>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon'></i>
+                            <span class="text nav-text">Leaderboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-alt-2 icon'></i>
+                            <span class="text nav-text">Historical Trading</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Historical Chart</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icon'></i>
+                            <span class="text nav-text">Scanners</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon'></i>
+                            <span class="text nav-text">Alerts</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-wallet icon'></i>
+                            <span class="text nav-text">Basic Backtest</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon'></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+
+            </div>
+        </div>
+    </nav>
+    <section class="home">
+        <div class="text">Leaderboard (Basic Backtest)</div>
+        <div class="header_fixed">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Calmar Ratio</th>
+                        <th>Overall Profit</th>
+                        <th>Avg. Daily Profit</th>
+                        <th>Win % (Day)</th>
+                        <th>Price (Rs)</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Selling with re entr</td>
+                        <td>3.96</td>
+                        <td>381845</td>
+                        <td>319.54</td>
+                        <td>0.65</td>
+                        <td>-</td>
+                        <td><button>View</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>strategy_name</td>
+                        <td>3.62</td>
+                        <td>268872.5</td>
+                        <td>216.31</td>
+                        <td>0.64</td>
+                        <td>500</td>
+                        <td><button>View</button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Based on premium and</td>
+                        <td>3.42</td>
+                        <td>255425</td>
+                        <td>208.51</td>
+                        <td>0.64</td>
+                        <td>-</td>
+                        <td><button>View</button></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Selling with re entr</td>
+                        <td>3.96</td>
+                        <td>381845</td>
+                        <td>319.54</td>
+                        <td>0.65</td>
+                        <td>-</td>
+                        <td><button>View</button></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Selling with re entr</td>
+                        <td>3.96</td>
+                        <td>381845</td>
+                        <td>319.54</td>
+                        <td>0.65</td>
+                        <td>-</td>
+                        <td><button>View</button></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Selling with re entr</td>
+                        <td>3.96</td>
+                        <td>381845</td>
+                        <td>319.54</td>
+                        <td>0.65</td>
+                        <td>-</td>
+                        <td><button>View</button></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Selling with re entr</td>
+                        <td>3.96</td>
+                        <td>381845</td>
+                        <td>319.54</td>
+                        <td>0.65</td>
+                        <td>-</td>
+                        <td><button>View</button></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Selling with re entr</td>
+                        <td>3.96</td>
+                        <td>381845</td>
+                        <td>319.54</td>
+                        <td>0.65</td>
+                        <td>-</td>
+                        <td><button>View</button></td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Selling with re entr</td>
+                        <td>3.96</td>
+                        <td>381845</td>
+                        <td>319.54</td>
+                        <td>0.65</td>
+                        <td>-</td>
+                        <td><button>View</button></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Selling with re entr</td>
+                        <td>3.96</td>
+                        <td>381845</td>
+                        <td>319.54</td>
+                        <td>0.65</td>
+                        <td>-</td>
+                        <td><button>View</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
